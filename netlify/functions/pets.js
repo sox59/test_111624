@@ -7,7 +7,7 @@ const handler = async () => {
 
     statusCode: 200,
     headers: { "Content-Type": "text/plain" },
-    body: "paul".toLocaleUpperCase
+    body: "paul".toLocaleUpperCase()
 
 
   }
@@ -15,4 +15,3 @@ const handler = async () => {
 }
 
 module.exports = { handler }
-
